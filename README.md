@@ -18,6 +18,7 @@ ___
 
 
 2. Copy the link to the project repository on GitHub. You can find this link on the project page by clicking the green "Code" button in the top right corner. Choose HTTPS or SSH, depending on how you want to clone the repository;
+
 ![img_1.png](img_1.png)
 
 3. Open the command prompt (Windows) or terminal (Mac/Linux);
