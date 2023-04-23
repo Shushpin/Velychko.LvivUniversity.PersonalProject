@@ -104,7 +104,7 @@ Name: Denys Velychko
 
 Telegram: https://t.me/gamabunta429
 
-Instagram: https://www.instagram.com/fufuskiaauuidjehv/
+Instagram: https://www.instagram.com/velychko_d/
 
 Link to deployed project on Azure: https://calorie-tracker1.azurewebsites.net
 
