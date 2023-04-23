@@ -14,6 +14,8 @@ ___
 ‣ Our app also allows you to set your daily calorie goal, and monitor the number of calories you have burned. You'll receive detailed statistics on your diet, enabling you to gain valuable insights into your eating habits and make informed decisions that will benefit your health and wellness.
 
 ### 👀How to install and run a project from **GitHub** in your IDE:
+
+---
 1. First, you need to have the right IDE on your computer, for example, [IntellijIDEA](https://www.jetbrains.com/idea/);
 
 
