@@ -12,6 +12,36 @@ ___
 ‣ With a user-friendly interface, our calorie tracker enables you to quickly log all the foods you consume, and access an extensive database of dishes and product categories. You can customize your own list of favorite foods and dishes, and easily record their calorie content.
 
 ‣ Our app also allows you to set your daily calorie goal, and monitor the number of calories you have burned. You'll receive detailed statistics on your diet, enabling you to gain valuable insights into your eating habits and make informed decisions that will benefit your health and wellness.
+
+### 👀How to install and run a project from **GitHub** in your IDE:
+1. First, you need to have the right IDE on your computer, for example, [IntellijIDEA](https://www.jetbrains.com/idea/);
+
+
+2. Copy the link to the project repository on GitHub. You can find this link on the project page by clicking the green "Code" button in the top right corner. Choose HTTPS or SSH, depending on how you want to clone the repository;
+![img_1.png](img_1.png)
+
+3. Open the command prompt (Windows) or terminal (Mac/Linux);
+
+
+4. Navigate to the directory where you want to save the project. You can use the "cd" (change directory) command for this. For example, to navigate to the "Documents" folder, type "cd Documents" (without quotes);
+
+
+5. Clone the project repository using the "git clone" command. Paste the previously copied link to the repository in place of "repository_link":
+
+`git clone https://github.com/Shushpin/Velychko.LvivUniversity.PersonalProject.git`
+
+6. Navigate to the project directory using the "cd" command:
+
+`cd calorie tracker`
+
+7. Build the project using the build tools that the project uses. The project uses Maven, run the command:
+
+`mvn clean install`
+
+8. Run the project using the run command that the project uses.The project is a web application, run it using an application server such as Tomcat:
+
+`cd target ||
+java -jar calorie-tracker1.jar`
 ### Technology Stack⚙️
 ___
 
