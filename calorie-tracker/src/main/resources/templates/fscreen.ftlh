@@ -21,7 +21,7 @@
 
     <nav>
         <ul>
-            <li><a href="#">button1</a></li>
+            <li><a href="#">button</a></li>
             <li><a href="#">button2</a></li>
             <li><a href="#">Contacts &Congruent;</a>
                 <ul>
