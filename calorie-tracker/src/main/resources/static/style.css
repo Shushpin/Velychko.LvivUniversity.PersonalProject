@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: #e6e6e6;
+    color: #535353;
+
+}
+input{
+    height: 45px;
+    width: 100%;
+    color:rgb(4, 62, 5);
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #e6f3da ;
+    border-radius: 5px;
+    padding-left: 25px;
+
+}
+input:focus {
+    border: 3px solid grey;
+    outline: none;
+}
+main{
+    background-image: url("bg.png");
+    Background-repeat: no-repeat;
+    padding: 0px 120px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-end;
+}
+.circle{
+    position: center;
+    border-radius: 50%;
+    background: #fdfdfd;
+    box-shadow: 0px 4px 70px 6px rgba(172, 184, 169, 0.89);
+}
+.register-form-container{
+    position: relative;
+    max-width: 415px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(195, 230, 184, 0.7);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+
+}
+.form-title{
+    text-align: center;
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 38px;
+
+}
+.form-fields{
+    margin-bottom: 12px;
+}
+.button{
+    font-weight: bold;
+    font-size: 14px;
+    display:block;
+    height: 35px;
+    background: #148c1e;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #096b07;
+    color: #c0e7c1;
+}
+a.button{
+    text-decoration: none;
+}
+.button-google{
+    color:#ffffff;
+    background-color: #bebebe;
+}
+.button-google:hover{
+    background: #8b988b;
+    color: #e6e6e6;
+}
+.divider{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+    color: rgb(120, 147, 122);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.login-form-container{
+    position: relative;
+    max-width: 415px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(195, 230, 184, 0.7);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.login-field {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-field a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-field a:hover {
+    text-decoration: underline;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #148c1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 8px 10px rgba(84, 177, 55, 0.7);
+}
+
+header .navbar-brand {
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffffff;
+    transition: .5s;
+}
+
+header .navbar-brand:hover {
+    transform: scale(1.2);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+header nav ul li a{
+    padding: 15px;
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    display: block;
+}
+header nav ul li a:hover{
+    color: #ffffff;
+    transition: all .07s ease-in-out;
+}
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #148c1e;
+    display: none;
+}
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+}
+nav ul li ul li ul {
+    left: 180px;
+    top: 0;
+}
+nav ul li:hover > ul{
+    display: initial;
+}
+section {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-size: 2rem;
+    margin: 4rem 6rem;
+}
+.faq {
+    max-width: 700px;
+    margin-top: 0.9rem;
+    padding-bottom: 1rem;
+    border-bottom: 6px solid #148c1e;
+    cursor: pointer;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.3rem;
+
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg{
+    transform: rotate(180deg);
+}
+
+svg {
+    transition: transform 0.5s ease-in;
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
