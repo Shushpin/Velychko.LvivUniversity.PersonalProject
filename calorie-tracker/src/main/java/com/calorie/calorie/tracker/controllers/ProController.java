@@ -30,6 +30,4 @@ public class ProController {
     public String showJs() {
         return "app";
     }
-
-
 }
