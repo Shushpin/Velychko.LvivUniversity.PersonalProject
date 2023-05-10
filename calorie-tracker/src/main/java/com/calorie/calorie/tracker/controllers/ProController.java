@@ -30,4 +30,14 @@ public class ProController {
     public String showJs() {
         return "app";
     }
+
+    @GetMapping("/calorie")
+    public String showCal() {
+        return "calorie";
+    }
+
+    @GetMapping("/main")
+    public String showMain() {
+        return "main";
+    }
 }
