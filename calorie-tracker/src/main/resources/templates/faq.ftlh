@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Питання відповідь</title>
-
-
     <!-- Шрифты с Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <!-- Стили сайта -->
-    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
 <header>
@@ -19,6 +17,8 @@
 
     <nav>
         <ul>
+            <li><a href="/calorie">Calorie Calculator</a></li>
+            <li><a href="#">button2</a></li>
             <li><a href="#">Contacts &Congruent;</a>
                 <ul>
                     <li><a href=mailto: denusveluchko2017@gmail.com>Gmail</a></li>
@@ -31,8 +31,6 @@
                     </li>
                 </ul>
             </li>
-            <li><a href="#">button1</a></li>
-            <li><a href="#">button2</a></li>
             <li><a href="/fscreen">FAQs</a></li>
             <li><a href="/login">Log out</a></li>
         </ul>
@@ -45,8 +43,8 @@
         <div class="question">
             <h3>What is a calorie tracker and how does it help me monitor my diet and overall health?</h3>
 
-            <svg width="15" height="10" viewBox="0 0 42 25">
-                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+            <svg widht="15" height="10" viewBox="0 0 42 25">
+                <path d="M3 3L21 21L39 3" stroke="white" stroke-widht="7" stroke-linecap="round"/>
             </svg>
         </div>
         <div class="answer">
@@ -61,8 +59,8 @@
         <div class="question">
             <h3>What kind of data can I track with a calorie tracker and how does it help me control my food intake??</h3>
 
-            <svg width="15" height="10" viewBox="0 0 42 25">
-                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+            <svg widht="15" height="10" viewBox="0 0 42 25">
+                <path d="M3 3L21 21L39 3" stroke="white" stroke-widht="7" stroke-linecap="round"/>
             </svg>
         </div>
         <div class="answer">
@@ -76,8 +74,8 @@
         <div class="question">
             <h3>What data do I need to input into a calorie tracker to get the most accurate results?</h3>
 
-            <svg width="15" height="10" viewBox="0 0 42 25">
-                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+            <svg widht="15" height="10" viewBox="0 0 42 25">
+                <path d="M3 3L21 21L39 3" stroke="white" stroke-widht="7" stroke-linecap="round"/>
             </svg>
         </div>
         <div class="answer">
@@ -91,8 +89,8 @@
         <div class="question">
             <h3>Can I use a calorie tracker to count calories consumed during exercise, and how does it work?</h3>
 
-            <svg width="15" height="10" viewBox="0 0 42 25">
-                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+            <svg widht="15" height="10" viewBox="0 0 42 25">
+                <path d="M3 3L21 21L39 3" stroke="white" stroke-widht="7" stroke-linecap="round"/>
             </svg>
         </div>
         <div class="answer">
@@ -106,8 +104,8 @@
         <div class="question">
             <h3>What features of a calorie tracker help improve the quality of my diet and achieve health and fitness goals?</h3>
 
-            <svg width="15" height="10" viewBox="0 0 42 25">
-                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+            <svg widht="15" height="10" viewBox="0 0 42 25">
+                <path d="M3 3L21 21L39 3" stroke="white" stroke-widht="7" stroke-linecap="round"/>
             </svg>
         </div>
         <div class="answer">
@@ -118,6 +116,6 @@
     </div>
 
 </section>
-<script src="../static/app.js"></script>
+<script src="app"></script>
 </body>
 </html>

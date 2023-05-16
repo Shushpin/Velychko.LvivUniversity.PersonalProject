@@ -19,9 +19,9 @@
             <div class="form-field">
                 <input type="text" placeholder="Name">
             </div>
-<#--            <div class="form-field">-->
-<#--                <input type="text" placeholder="Email">-->
-<#--            </div>-->
+            <div class="form-field">
+                <input type="text" placeholder="Email">
+            </div>
             <div class="form-field">
                 <input type="password" placeholder="Password">
             </div>

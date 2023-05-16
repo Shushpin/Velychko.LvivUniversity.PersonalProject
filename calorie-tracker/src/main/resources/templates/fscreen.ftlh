@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ГОЛОВНИЙ ЕКРАН</title>
 
-
-
     <!-- Шрифты с Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -21,7 +19,7 @@
 
     <nav>
         <ul>
-            <li><a href="#">button</a></li>
+            <li><a href="/calorie">Calorie Calculator</a></li>
             <li><a href="#">button2</a></li>
             <li><a href="#">Contacts &Congruent;</a>
                 <ul>
