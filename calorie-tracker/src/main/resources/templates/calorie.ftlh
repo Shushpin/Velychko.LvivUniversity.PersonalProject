@@ -18,7 +18,11 @@
     <nav>
         <ul>
 
+<<<<<<< HEAD
             <li><a href="/fscreen">Calorie Calculator</a></li>
+=======
+            <li><a href="/calorie">Calorie Calculator</a></li>
+>>>>>>> origin/master
             <li><a href="#">button2</a></li>
             <li><a href="#">About &Congruent;</a>
                 <ul>
@@ -78,6 +82,10 @@
 
 
 
+<<<<<<< HEAD
 <script src="main.js"></script>
+=======
+<script src=>"../static/main.js"</script>
+>>>>>>> origin/master
 </body>
 </html>

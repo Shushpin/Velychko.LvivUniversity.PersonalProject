@@ -110,5 +110,13 @@ Link to deployed project on Azure: https://calorie-tracker1.azurewebsites.net
 
 Gmail: denusveluchko2017@gmail.com
 
+### 📒 Lab 3
+___
+
+- Task: Added calory BMR
+- Name: Nazar Pohonchuk
+- [My project](https://github.com/npogoncuk/web-project)
+- [Pull Request](https://github.com/Shushpin/Velychko.LvivUniversity.PersonalProject/commit/a9a52d43faa1e27f62e6fe525642c8319f3103e3)
+
 
 
