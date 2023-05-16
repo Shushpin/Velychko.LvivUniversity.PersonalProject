@@ -8,7 +8,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
 
 </head>
 <body>
@@ -18,11 +18,7 @@
     <nav>
         <ul>
 
-<<<<<<< HEAD
-            <li><a href="/fscreen">Calorie Calculator</a></li>
-=======
             <li><a href="/calorie">Calorie Calculator</a></li>
->>>>>>> origin/master
             <li><a href="#">button2</a></li>
             <li><a href="#">About &Congruent;</a>
                 <ul>
@@ -46,7 +42,7 @@
     <div class="controls">
         <form>
             <h3>Age</h3>
-            <input type="text" id="age" value="28" />
+            <input type="text" id="age" value="" />
 
             <div class="gender">
                 <h3>Gender</h3>
@@ -59,14 +55,14 @@
 
                 <div class="height">
                     <h3>Height</h3>
-                    <input type="text" id="height" value="180" />
+                    <input type="text" id="height" value="" />
                     <div class="unit">cm</div>
                 </div>
 
                 <div class="weight">
 
                     <h3>Weight</h3>
-                    <input type="text" id="weight" value="65">
+                    <input type="text" id="weight" value="">
                     <div class="unit">kg</div>
                 </div>
             </div>
@@ -82,10 +78,6 @@
 
 
 
-<<<<<<< HEAD
-<script src="main.js"></script>
-=======
-<script src=>"../static/main.js"</script>
->>>>>>> origin/master
+<script src="/main.js"></script>
 </body>
 </html>
