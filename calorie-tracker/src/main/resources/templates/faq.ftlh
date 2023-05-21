@@ -116,6 +116,6 @@
     </div>
 
 </section>
-<script src="/app"></script>
+<script src="/app.js"></script>
 </body>
 </html>

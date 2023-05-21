@@ -70,7 +70,7 @@
     </div>
     <div class="result">
         <button class="calculate-btn">Calculate</button>
-        <div class="result-massage"><span class="calories">1,640</span>
+        <div class="result-massage"><span class="calories"></span>
             Calories/day
         </div>
     </div>
