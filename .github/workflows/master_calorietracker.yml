@@ -50,4 +50,5 @@ jobs:
           app-name: 'CalorieTracker'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2D859419037D442CB4E5C12488B2C3A9 }}
-          package: '*.jar'
+          package: '${{ github.workspace }}/java-app/*.jar'
+
