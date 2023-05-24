@@ -125,4 +125,9 @@ ___
 - Name: Vitalii Synytskyi
 - [My project](https://github.com/VitaliySynytskyi/CodeFlow)
 - [Pull Request](https://github.com/VitaliySynytskyi/Velychko.LvivUniversity.PersonalProject/pull/1#pullrequestreview-1441605380)
-
+___
+- Task: Code Review
+- Name: Nazar Pohonchuk
+- [My project](https://github.com/npogoncuk/web-project)
+- [Pull Request](https://github.com/npogoncuk/Velychko.LvivUniversity.PersonalProject/pull/1#pullrequestreview-1442558964)
+___
