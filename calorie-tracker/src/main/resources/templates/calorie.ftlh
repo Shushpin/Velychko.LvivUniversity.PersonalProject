@@ -69,7 +69,7 @@
         </form>
     </div>
     <div class="result">
-        <button class="calculate-btn">Calculate</button>
+        <button class="calculate-btn">Test</button>
         <div class="result-massage"><span class="calories"></span>
             Calories/day
         </div>
