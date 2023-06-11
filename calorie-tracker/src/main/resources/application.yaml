@@ -1,0 +1,8 @@
+spring:
+  r2dbc:
+    url: r2dbc:pool:postgres://localhost:5432/proselyte_webflux_security
+    username: postgres
+    password: postgres
+  flyway:
+    url: jdbc:postgresql://localhost:5432/proselyte_webflux_security
+    locations: classpath:db/migration
